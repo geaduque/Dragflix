@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  background-image: url("/drag-background.jpg");
+  background-image: url("/asset/drag-background.jpg");
   background-color: #000000;
   background-size: cover;
   background-position: center top;

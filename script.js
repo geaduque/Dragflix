@@ -8,6 +8,7 @@ var dragFranchiseImage = [
 var renderArrayElements = document.getElementById("array");
 
 for (var i = 0; i < dragFranchiseImage.length; i++) {
+<<<<<<< HEAD
   var imgElement = document.createElement("img"); 
   imgElement.src = dragFranchiseImage[i]; 
   renderArrayElements.appendChild(imgElement);  
@@ -18,4 +19,9 @@ function addFranchise (){
   var renderFranchise = document.getElementById("array");
   renderFranchise.innerHTML = renderFranchise.innerHTML + "<img src=" + favFranchise + ">";
   document.getElementById('franchise').value = '';
+=======
+  var imgElement = document.createElement("img");
+  imgElement.src = dragFranchiseImage[i]; 
+  renderArrayElements.appendChild(imgElement);
+>>>>>>> 9d050230feaa2d0ed74100b71e9120c926875f8a
 }
